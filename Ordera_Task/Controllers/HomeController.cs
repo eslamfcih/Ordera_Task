@@ -26,5 +26,17 @@ namespace Ordera_Task.Controllers
 
             return View();
         }
+        public ActionResult Products()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+        public ActionResult Product()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }

@@ -1,7 +1,192 @@
-﻿@{
-    ViewBag.Title = "About";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+﻿@*<html>
+<head>
+    <title>About US</title>
+    <link rel='stylesheet' href='~/Content/about.css' />
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css">
+    <link rel="stylesheet" href="~/Content/Site.css">
 
-<p>Use this area to provide additional information.</p>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--IE meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+    <div class="background"></div>
+    <div id="roma-popup" class="popup">
+        <div class="users text-right">
+            <select name="" id="">
+                <option value="">Land Markers</option>
+                <option value="">User #1</option>
+                <option value="">User #2</option>
+                <option value="">User #3</option>
+            </select>
+        </div>
+        <div class="popup-header">
+            <i class="popup-close glyphicon glyphicon-remove"></i>
+            <div class="popup-title">
+                ROMA
+            </div>
+        </div>
+        <div class="popup-body">
+            <div class="text-center">
+                <img src="img/roma.gif" alt="">
+            </div>
+            <p>
+                One morning, when Gregor Samsa woke from
+                troubled dreams, he himself transformed in bed into
+                a horrible vermin. He his armour-back One morning, when Gregor Samsa woke from
+                troubled dreams, he himself transformed in bed into
+                a horrible vermin. He his armour-back One morning, when Gregor Samsa woke from
+                troubled dreams, he himself transformed in bed into
+                a horrible vermin. He his armour-back One morning, when Gregor Samsa woke from
+                troubled dreams, he himself transformed in bed into
+                a horrible vermin. He his armour-back One morning, when Gregor Samsa woke from
+                troubled dreams, he himself transformed in bed into
+                a horrible vermin. He his armour-back One morning, when Gregor Samsa woke from
+                troubled dreams, he himself transformed in bed into
+                a horrible vermin. He his armour-back
+                a horrible vermin. He his armour-back One morning, when Gregor Samsa woke from
+                troubled dreams, he himself transformed in bed into
+                a horrible vermin. He his armour-back
+            </p>
+            <div class="comments">
+                <div class="comment">
+                    <div class="user">
+                        <img src="img/user.gif" alt="">
+                        <span>Omnia Shawky</span>
+                    </div>
+                    <div class="comment-body">
+                        One morning, when Gregor Samsa woke from
+                        troubled dreams, he himself transformed in bed into
+                        a horrible vermin. He his armour-back
+                    </div>
+                    <div class="date fl-right">
+                        30-04-2017
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="comment">
+                    <div class="user">
+                        <img src="img/user.gif" alt="">
+                        <span>Omnia Shawky</span>
+                    </div>
+                    <div class="comment-body">
+                        One morning, when Gregor Samsa woke from
+                        troubled dreams, he himself transformed in bed into
+                        a horrible vermin. He his armour-back
+                    </div>
+                    <div class="date fl-right">
+                        30-04-2017
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="comment">
+                    <div class="user">
+                        <img src="img/user.gif" alt="">
+                        <span>Omnia Shawky</span>
+                    </div>
+                    <div class="comment-body">
+                        One morning, when Gregor Samsa woke from
+                        troubled dreams, he himself transformed in bed into
+                        a horrible vermin. He his armour-back
+                    </div>
+                    <div class="date fl-right">
+                        30-04-2017
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <input type="text" placeholder="Comment ...">
+        </div>
+    </div>
+
+
+    <!-- start Testimonials -->
+    <section class="Testimonials text-center ">
+        <div class="container">
+            <h4>Who are we ?</h4>
+            <div id="Testimonials" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <p class="lead">this is a simple paragraph that is meant to be nice and easy to type which is why there will be mommas no periods or any capital letters so i guess this means that it cannot </p>
+                        <span>Angel</span>
+                    </div>
+                    <div class="item">
+                        <p class="lead">this is a simple paragraph that is meant to be nice and easy to type which is why there will be mommas no periods or any capital letters so i guess this means that it cannot </p>
+                        <span>Eslam</span>
+                    </div>
+                    <div class="item">
+                        <p class="lead">this is a simple paragraph that is meant to be nice and easy to type which is why there will be mommas no periods or any capital letters so i guess this means that it cannot </p>
+                        <span>Omnia</span>
+                    </div>
+                    <div class="item">
+                        <p class="lead">this is a simple paragraph that is meant to be nice and easy to type which is why there will be mommas no periods or any capital letters so i guess this means that it cannot </p>
+                        <span>Mohamed</span>
+                    </div>
+                    <div class="item">
+                        <p class="lead">this is a simple paragraph that is meant to be nice and easy to type which is why there will be mommas no periods or any capital letters so i guess this means that it cannot </p>
+                        <span>Mohamed</span>
+                    </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#Testimonials" data-slide-to="0" class="active">
+                        <img src="~/img/a.jpg" alt="Angel" />
+                    </li>
+                    <li data-target="#Testimonials" data-slide-to="1">
+                        <img src="~/img/b.jpg" alt="Eslam" />
+                    </li>
+                    <li data-target="#Testimonials" data-slide-to="2">
+                        <img src="~/img/c.jpg" alt="Omnia" />
+                    </li>
+                    <li data-target="#Testimonials" data-slide-to="3">
+                        <img src="~/img/d.jpg" alt="Mohamed" />
+                    </li>
+                    <li data-target="#Testimonials" data-slide-to="3">
+                        <img src="~/img/e.jpg" alt="Mohamed" />
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <!-- end Testimonials -->
+    <div class="clearfix"></div>
+    <footer>
+        <div class="copyrights text-center">
+            2017 | All Copyrights Reserved
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+    <script src="https://use.fontawesome.com/d58d684477.js"></script>
+    <script src="~/Scripts/jquery.min.js"></script>
+    <script>
+        $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function (event) {
+            // Avoid following the href location when clicking
+            event.preventDefault();
+            // Avoid having the menu to close when clicking
+            event.stopPropagation();
+            // If a menu is already open we close it
+            //$('ul.dropdown-menu [data-toggle=dropdown]').parent().removeClass('open');
+            // opening the one you clicked on
+            $(this).parent().addClass('open');
+
+            var menu = $(this).parent().find("ul");
+            var menupos = menu.offset();
+
+            if ((menupos.left + menu.width()) + 30 > $(window).width()) {
+                var newpos = - menu.width();
+            } else {
+                var newpos = $(this).parent().width();
+            }
+            menu.css({ left: newpos });
+
+        });
+    </script>
+
+
+</body>
+</html>*@
