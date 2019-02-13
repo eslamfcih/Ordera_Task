@@ -1,0 +1,79 @@
+.img-responsive
+{
+    margin: auto;
+}
+
+body
+{
+    height: 200px;
+}
+
+
+
+/*******Bootstrap classes******/
+
+.Testimonials 
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.Testimonials h4
+{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+     color: #1ec7fe;
+}
+
+.Testimonials .lead
+{
+    line-height: 2em;
+}
+
+.Testimonials span
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #1ec7fe;
+    
+}
+
+.Testimonials .carousel-inner
+{
+    min-height: 160px;
+}
+
+.Testimonials .carousel-indicators
+{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+}
+
+.Testimonials .carousel-indicators li
+{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.5;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.Testimonials .carousel-indicators li.active
+{
+    opacity: 1;
+    width: 80px;
+    height: 80px;
+    background: none;
+    border: 2px solid #E41B17;
+}
+
+.Testimonials .carousel-indicators li img
+{
+    max-width: 100%;
+}
+
